@@ -10,7 +10,7 @@ import java.util.*;
  */
 @RestController
 @RequestMapping(value = "users")
-@Api(value="用户controller",tags={"用户操作接口"})
+//@Api(value="用户controller",tags={"用户操作接口"})
 public class LoginController {
 
     static Map<Long, User> users = Collections.synchronizedMap(new HashMap<Long, User>());
